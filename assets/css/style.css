@@ -1,10 +1,7 @@
 :root {
-    --accent-blue: #007bff;
     --navy-blue: #1d3b68;
-    --bg-light: #f8f9fa;
     --white: #ffffff;
     --dark-text: #343a40;
-    --purple-tint: #6200ea;
 }
 
 * {
@@ -207,4 +204,3 @@ body {
     font-weight: bold;
     color: #ffd700;
 }
-
