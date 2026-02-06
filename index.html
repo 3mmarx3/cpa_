@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cpa</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="brand-logo-frame"></div>
+    
+    <section class="page-wrapper">
+        <header class="top-banner" id="header-timer-box">
+           <div class="main-title-text">
+                Unlock Your Potential to Win R1,500,000!
+            </div>
+        </header>
+
+        <main class="content-container" id="main-app-shell">
+            <div id="toast-notification" class="alert-overlay">
+                <div class="alert-content-inner">
+                    <span id="winner-name"></span> just claimed <span id="reward-amount"></span> ! 🏆
+                </div>
+            </div>
+
+            <div id="flow-interface">
+                <article id="phase-1" class="quiz-panel" style="display: block;">
+                    <span class="step-indicator">Step 1 of 3</span>
+                    <h2 class="panel-heading">How would you spend R1,500,000?</h2>
+                    <div class="action-stack">
+                        <button class="choice-trigger" data-next="2">Buy a Luxury Property</button>
+                        <button class="choice-trigger" data-next="2">Invest in a Business</button>
+                        <button class="choice-trigger" data-next="2">Travel the World</button>
+                    </div>
+                </article>
+
+                <article id="phase-2" class="quiz-panel" style="display: none;">
+                    <span class="step-indicator">Step 2 of 3</span>
+                    <h2 class="panel-heading">What is your primary financial goal?</h2>
+                    <div class="action-stack">
+                        <button class="choice-trigger" data-next="3">Financial Freedom</button>
+                        <button class="choice-trigger" data-next="3">Early Retirement</button>
+                        <button class="choice-trigger" data-next="3">Supporting My Family</button>
+                    </div>
+                </article>
+
+                <article id="phase-3" class="quiz-panel" style="display: none;">
+                    <span class="step-indicator">Step 3 of 3</span>
+                    <h2 class="panel-heading">Are you ready to claim your entry?</h2>
+                    <div class="action-stack">
+                        <button class="choice-trigger" data-next="4">Yes, I am Ready!</button>
+                        <button class="choice-trigger" data-next="4">Show Me How!</button>
+                    </div>
+                </article>
+
+                <article id="phase-4" class="quiz-panel" style="display: none;">
+                    <div class="timer-circle"><span id="counter-val">60</span></div>
+                    <h2 class="congrats-title">Verification Successful! 🏆</h2>
+                    <p class="promo-description">
+                        You have been selected as a qualified participant for the Mega Jackpot. 
+                        A life-changing R1,500,000 is within reach. Join thousands of daily winners 
+                        who have already taken the first step toward their dreams.
+                    </p>
+
+                    <button id="submit-offer-btn">ACTIVATE MY CHANCE</button>
+                    
+                    <p class="trust-badge-text">
+                        Join <strong>20,000+</strong> active members today. Fast, secure, and verified.
+                    </p>
+
+                    <div class="notice-ribbon">
+                        <span class="ribbon-text">
+                            ⚡ <strong>Note:</strong> High demand detected. Complete your activation now to secure your spot in the next draw.
+                        </span>
+                    </div>
+                </article>
+            </div>
+        </main>
+    </section>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
