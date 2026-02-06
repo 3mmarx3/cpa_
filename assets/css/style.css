@@ -142,11 +142,14 @@ body {
     font-size: 1.3rem;
     z-index: 10;
     transition: transform .3s;
-    width: 130px;
-    background-size: contain;
+    width: 100px;
+    height: 110px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/logo.png);
+    border-radius: 10px;
+
 }
 
 .top-banner { text-align: center; }
